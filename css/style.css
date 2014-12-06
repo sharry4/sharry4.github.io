@@ -12,8 +12,18 @@ body {
 	margin-top: 140px;
 }
 
+.site-nav img {
+	size: 50px 50px;
+}
+
+.site-nav h1 {
+	color: white;
+	font-weight: bolder;
+}
+
 .site-nav .side-nav li a {
 	color: white;
+	font-size: 16pt;
 }
 
 
