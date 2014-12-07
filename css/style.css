@@ -9,7 +9,7 @@ body {
 }
 
 .site-nav {
-	margin-top: 140px;
+	margin-top: 95px;
 }
 
 .site-nav img {
@@ -21,19 +21,103 @@ body {
 	font-weight: bolder;
 }
 
-.site-nav .side-nav li a {
-	color: white;
-	font-size: 16pt;
+.site-nav .side-nav {
+	margin-left: 33%;
 }
 
+.site-nav .side-nav li a {
+	color: white;
+	font-size: 18pt;
+}
 
+.site-nav2 {
+	margin-top: 60%;
+}
+
+.site-nav2 .margin1 {
+	margin-left: 50px;
+}
+
+.site-nav2 .margin2 {
+	margin-top: 20px;
+}
+
+.site-nav2 h1 {
+	font-size: 20pt;
+	color: white;
+	font-weight: bolder;
+}
+
+.site-nav2 .side-nav {
+	margin-left: 30px;
+}
+
+.site-nav2 .side-nav li a {
+	color: white;
+	font-size: 13pt
+}
+
+.site-nav2 .side-nav1 .social-media a {
+	color: rgb(215, 102, 91);
+	font-size: 25px;
+	margin-left: 23px;
+}
+
+.resume p {
+	line-height: 0px;
+}
+
+.resume .experience .New-intern {
+	margin-top: 15px;
+}
+
+.resume h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 15px
+}
+
+.resume .education .degree {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.resume h2 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+.resume .experience .degree {
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.resume .experience .secondary {
+	text-transform: uppercase;
+}
+
+.resume h3 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+.resume .skills .degree {
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
 
 
 
 /*
 .headline {
 	background: rgb( 0, 0, 0);
-	color: rgb( 255, 255, 255);
+	color: rgb( 255, 255,4255);
 	font-family: Georgia, serif;
 	font-size: 4em;
 	font-weight: bold;
