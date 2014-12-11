@@ -136,11 +136,12 @@ body {
 }
 
 .portfolio h2 {
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .portfolio .news-story li {
 	list-style-type: none;
+    margin-top: 5px;
 }
 
 .portfolio .news-story li a {
@@ -150,13 +151,14 @@ body {
 
 }
 
-.magazine-design {
+.large-9 .large-9 {
 	background-color: rgb(229, 230, 231);
 }
 
-.magazine-design li {
+.design-content li {
 	list-style-type: none;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .flowContent {
@@ -165,9 +167,13 @@ body {
 
 .flowContent h1 {
 	font-size: 20pt;
+	margin-left: 20px;
 }
 
 .flowContent p {
+	font-size: 10pt;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 30px;
 }
 
@@ -175,8 +181,36 @@ body {
 	color: rgb(215, 102, 91);
 }
 
+.protest h2 {
+	font-size: 20pt;
+	margin-top: 80px;
+}
 
+.protest h3 {
+	font-size: 11pt;
+	margin-top: 20px;
+	list-style-type: none;
+}
 
+.story-content {
+	font-size: 9pt;
+	margin-bottom: 50px;
+	margin-top: 30px; 
+}
+
+.story-content p {
+	margin-bottom: 17px;
+	margin-top: 15px;
+}
+
+.link p a {
+	color: black;
+	font-size: 11pt;
+}
+
+.back p a {
+	color: rgb(215, 102, 91);
+}
 
 
 
