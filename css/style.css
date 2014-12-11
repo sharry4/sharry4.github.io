@@ -45,7 +45,7 @@ body {
 .site-nav2 h1 {
 	font-size: 20pt;
 	color: white;
-	font-weight: bolder;
+
 }
 
 .site-nav2 .side-nav {
@@ -60,11 +60,26 @@ body {
 .site-nav2 .side-nav1 .social-media a {
 	color: rgb(215, 102, 91);
 	font-size: 25px;
+	font-variant: 50%;
 	margin-left: 23px;
+}
+
+.resume {
+	margin-bottom: 40px;
+}
+
+.resume .square i {
+    color: rgb(215, 102, 91);
+	font-size: 18pt;
 }
 
 .resume p {
 	line-height: 0px;
+}
+
+.resume .intern1 {
+	margin-bottom: 0px;
+	margin-top: 35px;
 }
 
 .resume .intern2 {
@@ -76,7 +91,7 @@ body {
 	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 15px;
-	margin-top: 30pt;
+	margin-top: 35pt;
 }
 
 .resume .education .degree {
@@ -123,6 +138,13 @@ body {
 	text-transform: uppercase;
 }
 
+.resume h4 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 40px;
+}
+
 .portfolio h1 {
 	font-size: 25px;
 	font-weight: bold;
@@ -160,6 +182,12 @@ body {
 	list-style-type: none;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.design-content1 li {
+	list-style-type: none;
+	margin-top: 30px;
+	margin-bottom: 100px;	
 }
 
 .flowContent {
@@ -211,6 +239,20 @@ body {
 
 .back p a {
 	color: rgb(215, 102, 91);
+}
+
+.About {
+	margin-bottom: 80px;
+}
+
+.About h1 {
+	font-size: 20pt;
+	margin-top: 40pt;
+	margin-bottom: 40px;
+}
+
+.selfdescription p {
+	margin-bottom: 15px;
 }
 
 
