@@ -3,18 +3,23 @@
     <head>
         <meta charset="UTF-8" />
         <title>Siyuan Tong</title>
+        <link href="style.css" media="screen" rel="stylesheet" />
+        <link href="print.css" media="print" rel="stylesheet" />
     </head>
     
     <body>
+      <div id="container">
         <header>
           <h1>Siyuan Tong</h1>
         </header>
         
         <address>
-          <a href="http://miami.edu">University of Miami</a><br/>
-          1101 Stanford Dr<br/>
-          Coral Gables, FL 33146<br/>
-          (305)989-4481
+          <ul>
+          <li><a href="http://miami.edu">University of Miami</a></li>
+          <li>1101 Stanford Dr</li>
+          <li>Coral Gables, FL 33146</li>
+          <li>(305)989-4481</li>
+          </ul>
         </address>
         
         <nav>
@@ -30,23 +35,30 @@
         
         
         <main>
-        
+            
         <section id="education">
             <h2>EDUCATION</h2>
-            <h3>University of Miami</h3>
-            <p>Coral Gables, FL</p>
+            <p><span class="title">University of Miami</span>, Coral Gables, FL</h3>
             <p>Bachelor of Science in Communication, May 2016</p>
-            <p><em>Journalism</em></p>
-            <p><em>Minors in Economics, Political Science, and Philosophy</em></p> 
+            <p><span class="occupation1">Journalism</span></p>
+            <p><span class="occupation1">Minors in Economics, Political Science, and Philosophy</span></p> 
         </section>
         
         <section id="experience">
             <h2>EXPERIENCE</h2>
             
             <article>
-            <p><strong>Distraction Magazine, </strong>Coral Gables, FL</p>
-            <p><em>Contributor</em></p>
-            <p>September 2014 - present</p>
+            <p><span class="title">The Miami Hurricane Newspaper, </span>Coral Gables, FL</p>
+            <p><span class="occupation">Contributor</span>February 2015 - present</p>
+                
+            <ul>
+                <li>Contribute Writer</li>
+            </ul>
+            </article>
+            
+            <article>
+            <p><span class="title">Distraction Magazine, </span>Coral Gables, FL</p>
+            <p><span class="occupation">Contributor</span>September 2014 - present</p>
             <ul>
                 <li>Contribute Writer</li>
                 <li>Contribute Designer</li>
@@ -54,10 +66,9 @@
             </article>
             
             <article>  
-            <p><strong>New Oriental Education &amp; Technology Group Inc., </strong>Hangzhou, China</p>
-            <p><em>GMAT Teaching Assistant</em></p> 
-            <p>July – August 2014</p>
-            <ul>
+            <p><span class="title">New Oriental Education &amp; Technology Group Inc., </span>Hangzhou, China</p>
+            <p><span class="occupation">GMAT Teaching Assistant</span>July – August 2014</p> 
+            <ul class="list">
                 <li>Communicator between students and teachers</li>
                 <li>Recorded students’ study progress</li>
                 <li>Gave students study advice</li>
@@ -65,10 +76,9 @@
             </article>    
              
             <article>   
-            <p><strong>Zhejiang Daily Press Group, </strong>Hangzhou, China</p>
-            <p><em>Journalist Assistant Intern</em></p>
-            <p>May - August 2013</p>
-            <ul>
+            <p><span class="title">Zhejiang Daily Press Group, </span>Hangzhou, China</p>
+            <p><span class="occupation">Journalist Assistant Intern</span>May - August 2013</p>
+            <ul class="list">
                 <li>Worked under an experienced reporter</li>
                 <li>Attended events and interviewed people</li>
                 <li>Wrote news drafts</li>
@@ -76,10 +86,11 @@
             </article> 
         </section>
         
+        
         <section id="rewards">
             <h2>REWARDS</h2>
             
-            <ul>
+            <ul class="list">
                 <li>DEAN'S LIST</li>
                 <li>DEAN’S SCHOLARSHIP</li>
             </ul>
@@ -145,10 +156,11 @@
                 <li>DOG LOVER</li>
             </ul>
         </section>
+            
+        </main>   
         
-        </main>    
         
-        
+      </div>   
         
     </body>
     
