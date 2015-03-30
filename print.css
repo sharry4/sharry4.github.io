@@ -107,6 +107,10 @@ p {
     content: " | ";
 }
 
+.title {
+    font-weight: bold;
+}
+
 .column1 {
     float: left;
     width: 3.5in;
