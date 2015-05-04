@@ -15,12 +15,15 @@ nav {
     display: none;
 }
 
+img {
+    height: 100pt;
+    width: 100pt;
+}
+
 h1 {
-    font-size: 24pt;
-    font-weight: 900;
+    font-family: 'Nunito';
+    font-size: 30pt;
     text-transform: uppercase;
-    text-align: center;
-    margin-top: -7pt;
 }
 
 h2 {
@@ -34,23 +37,35 @@ a {
 
 address {
     font-style: normal;
-    text-align: center;
-    border-bottom: 1pt solid #ccc;
 }
 
 address ul {
     list-style-type: none;
+    padding-left: 0pt;
+    padding-top: 6pt;
 }
 
 p {
     margin-bottom: -10pt;
 }
 
-#container {
+#container3 {
+    margin: 0 auto;
+    width: 7.5in;
+    border: 1pt solid transparent;
+    border-bottom: 1pt solid #ccc;
+    padding: 20pt;
+    padding-bottom: 5pt;
+    margin-top: -20pt;
+    overflow: auto;
+}
+
+#container4 {
     margin: 0 auto;
     width: 7.5in;
     border: 1pt solid transparent;
     padding: 20pt;
+    margin-top: -20pt;
     overflow: auto;
 }
 
@@ -112,16 +127,30 @@ p {
     font-weight: bold;
 }
 
+#top3 {
+    float: left;
+    width: 1in;
+    border: 1pt solid transparent;
+    padding-left: 80pt;
+}
+
+#top4 {
+    float: right;
+    width: 4.5in;
+    border: 1pt solid transparent;
+    margin-top: 22pt;
+}
+
 .column1 {
     float: left;
     width: 3.5in;
     border: 1pt solid transparent;
-    margin-top: 15pt;
+    margin-top: 0pt;
 }
 
 .column2 {
     float: right;
     width: 3.5in;
     border: 1pt solid transparent;
-    margin-top: 15pt;
+    margin-top: 0pt;
 }
