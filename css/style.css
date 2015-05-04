@@ -67,6 +67,21 @@ address ul {
     list-style-type: none;
 }
 
+#socialmedia {
+    color: rgb(220,124,111);
+    font-size: 20px;
+    padding-left: 0px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin-bottom: 5px;
+}
+
+#socialmedia li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;    
+}
 
 #container1 {
     margin: 0 auto;
@@ -76,6 +91,7 @@ address ul {
     padding: 20px;
     margin-top: 150px;
     overflow: auto;
+    position: relative;
 }
 
 #top1 {
@@ -153,6 +169,7 @@ p {
     padding: 20px;
     padding-bottom: 0px;
     overflow: auto;
+    position: relative;
 }
 
 #top3 {
