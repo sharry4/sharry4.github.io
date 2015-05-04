@@ -1,0 +1,127 @@
+/* Print Stylesheet */
+
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+nav {
+    display: none;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -7pt;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-bottom: -5pt;
+}
+
+a {
+   text-decoration: none; 
+}
+
+address {
+    font-style: normal;
+    text-align: center;
+    border-bottom: 1pt solid #ccc;
+}
+
+address ul {
+    list-style-type: none;
+}
+
+p {
+    margin-bottom: -10pt;
+}
+
+#container {
+    margin: 0 auto;
+    width: 7.5in;
+    border: 1pt solid transparent;
+    padding: 20pt;
+    overflow: auto;
+}
+
+#experience h2 {
+    margin-top: 22pt;
+}
+
+#awards ul {
+    padding-left: 0pt;
+    list-style-type: none;
+}
+
+#activities ul {
+    list-style-type: none;
+    padding-left: 0pt;
+}
+
+#activities ul li {
+    margin-bottom: 3pt;
+}
+
+#activities ul ul {
+    padding-left: 35pt;
+    list-style-type: disc;
+}
+
+#activities ul ul li:first-child {
+    margin-top: 3pt;
+}
+
+#skills ul {
+    padding-left: 0pt;
+    list-style-type: none;
+}
+
+#skills ul ul {
+    padding-left: 35pt;
+    list-style-type: disc;
+}
+
+#skills ul ul li:first-child {
+    margin-top: 3pt;
+}
+
+#skills ul ul li:last-child {
+    margin-bottom: 3pt;
+}
+
+#more ul {
+    padding-left: 0pt;
+    list-style-type: none;
+}
+
+.occupation:after {
+    content: " | ";
+}
+
+.title {
+    font-weight: bold;
+}
+
+.column1 {
+    float: left;
+    width: 3.5in;
+    border: 1pt solid transparent;
+    margin-top: 15pt;
+}
+
+.column2 {
+    float: right;
+    width: 3.5in;
+    border: 1pt solid transparent;
+    margin-top: 15pt;
+}

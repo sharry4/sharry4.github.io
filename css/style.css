@@ -1,0 +1,135 @@
+/* Web stylesheet */
+
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: rgb(220,124,111); /* peach pink */
+}
+
+p {
+    margin-bottom: -12px;
+}
+
+h1 {
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+    margin-top: -20px;
+    text-align: center;
+}
+
+address ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: rgb(220,124,111);
+    font-family: 'Lato';
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li:after {
+    content: " |";
+}
+
+nav ul li:last-child:after {
+    content: "";
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    border: 1px solid transparent;
+    padding: 20px;
+    overflow: auto;
+}
+
+#awards ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#activities ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#activities ul ul {
+    padding-left: 40px;
+    list-style-type: disc;
+}
+
+#activities ul ul li:first-child {
+    margin-top: 3px;
+}
+
+#skills ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#skills ul ul {
+    padding-left: 40px;
+    list-style-type: disc;
+}
+
+#more ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.title {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.occupation {
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.occupation1 {
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.occupation:after {
+    content: " | ";
+}
+
+.column1 {
+    float: left;
+    width: 470px;
+    border: 1px solid transparent;
+}
+
+.column2 {
+    float: right;
+    width: 470px;
+    border: 1px solid transparent;
+}
