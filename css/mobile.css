@@ -1,9 +1,11 @@
-@media (max-width: 320px) {
-    
-
 @import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@media (max-width: 320px) {
+    
+
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -179,7 +181,6 @@ p {
     width: 60px;
     border: 1px solid transparent;
     padding-left: 10px;
-    padding-right: -50px;
 }
 
 #top4 {
