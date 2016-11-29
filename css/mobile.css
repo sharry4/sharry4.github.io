@@ -313,14 +313,15 @@ h2 {
 
 .d4 {
     float: none;
-    width: 470px;
+    width: 300px;
     margin-bottom: 30px;
     border: 1px solid #ccc;
 }
 
 .d5 {
     float: none;
-    width: 470px;
+    width: 300px;
+    margin-left: 0px;
     margin-bottom: 30px;
     border: 1px solid #ccc;
 }
@@ -344,6 +345,10 @@ h2 {
     margin-bottom: -4px;
 }
 
+#yearbook {
+   display: none; 
+    }
+    
 #md1 {
     display: none;
 }
