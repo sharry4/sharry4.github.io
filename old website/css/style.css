@@ -1,0 +1,368 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#top2 h1 {
+    display:inline;
+    font-family: 'Nunito';
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+#top1 img {
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: rgb(220,124,111); /* peach pink */
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+#top2 nav {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+}
+
+nav ul {
+    padding-left: 3px;
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li:after {
+    content: " |";
+}
+
+nav ul li:last-child:after {
+    content: "";
+}
+
+.currentpage {
+    font-weight: 700;
+}
+
+
+address {
+    font-style: normal;
+    margin-top: -20px;
+}
+
+address ul {
+    list-style-type: none;
+}
+
+#socialmedia {
+    color: rgb(220,124,111);
+    font-size: 20px;
+    padding-left: 0px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin-bottom: 5px;
+}
+
+#socialmedia li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;    
+}
+
+#container1 {
+    margin: 0 auto;
+    width: 960px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 150px;
+    overflow: auto;
+    position: relative;
+}
+
+#top1 {
+    float: left;
+    width: 250px;
+    border: 1px solid transparent;
+    padding-left: 20px;
+}
+
+#top2 {
+    float: right;
+    width: 680px;
+    border: 1px solid transparent;
+    margin-top: 50px;
+}
+
+#container2 {
+    margin: 0 auto;
+    width: 960px;
+    border: 1px solid transparent;
+    padding: 20px;
+    overflow: auto;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    display:inline;
+    font-family: 'Nunito';
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.column1 h2 {
+    color: rgb(220,124,111);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.column2 h2 {
+    color: rgb(220,124,111);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+nav {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+}
+
+p {
+    margin-bottom: -12px;
+}
+
+.column1 address ul {
+    font-size: 15px;
+    padding-left: 0px;
+    margin-top: 55px;
+}
+
+#container3 {
+    margin: 0 auto;
+    width: 960px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    padding-bottom: 0px;
+    overflow: auto;
+    position: relative;
+}
+
+#top3 {
+    float: left;
+    width: 150px;
+    border: 1px solid transparent;
+    padding-left: 180px;
+}
+
+#top4 {
+    float: right;
+    width: 600px;
+    border: 1px solid transparent;
+    margin-top: 25px;
+}
+
+#container4 {
+    margin: 0 auto;
+    width: 960px;
+    border: 1px solid transparent;
+    padding: 20px;
+    overflow: auto;
+}
+
+#awards ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#activities ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#activities ul ul {
+    padding-left: 40px;
+    list-style-type: disc;
+}
+
+#activities ul ul li:first-child {
+    margin-top: 3px;
+}
+
+#skills ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#skills ul ul {
+    padding-left: 40px;
+    list-style-type: disc;
+}
+
+#more ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.title {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.occupation {
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.occupation1 {
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.occupation:after {
+    content: " | ";
+}
+
+.column1 {
+    float: left;
+    width: 470px;
+    border: 1px solid transparent;
+}
+
+.column2 {
+    float: right;
+    width: 470px;
+    border: 1px solid transparent;
+}
+
+h2 {
+    color: rgb(220,124,111);
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#writings li {
+    font-size: 15px;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+#writings li a {
+    color: black;
+    font-weight: 200;
+}
+
+#writings li a:hover {
+    color: orange;
+}
+
+.d1 {
+    float: left;
+    width: 310px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+.d2 {
+    float: left;
+    width: 310px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+.d3 {
+    float: right;
+    width: 310px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding-bottom: 0px;
+}
+
+.d4 {
+    float: left;
+    width: 470px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+.d5 {
+    float: right;
+    width: 470px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+.d6 {
+    float: left;
+    width: 235px;
+    height: 304px;
+    margin-bottom: 30px;
+    margin-left: 117.5px;
+    border: 1px solid #ccc;
+}
+
+#md2 {
+    clear: both;
+}
+
+.design img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -4px;
+}
+
+#me {
+    float: left;
+    width: 380px;
+}
+
+#me img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#about {
+    float: right;
+    width: 540px;
+    margin-top: 40px;
+}
+
+#about p {
+    margin-bottom: 20px;
+}
+
+#intro {
+    color: rgb(220,124,111); /* peach pink */ 
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
