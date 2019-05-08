@@ -7,14 +7,14 @@ Version : 1.0
 Author  : Surjith S M
 URI     : https://surjithctly.in/
 
-Copyright © All rights Reserved 
+Copyright © All rights Reserved
 
 */
 
 
 /*------------------------
 [TABLE OF CONTENTS]
-    
+
 1. GLOBAL STYLES
 2. NAVBAR
 3. HERO
@@ -118,6 +118,10 @@ p.lead {
     font-weight: 500;
     padding: 0.6rem 2rem;
     border: 0;
+    /* background-image: -moz-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    background-image: -webkit-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    background-image: -ms-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%); */
 }
 
 .btn-primary:hover,
@@ -186,13 +190,17 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: rgb(74, 13, 143);
-    background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    background-color: rgb(185, 68, 123);
+    background: -moz-linear-gradient(135deg, rgb(185, 68, 123) 0%, rgb(215, 5, 45) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(185, 68, 123) 0%, rgb(215, 5, 45) 100%);
+    background: linear-gradient(135deg, rgb(185, 68, 123) 0%, rgb(215, 5, 45) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+
+    /* background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%); */
 }
 
 .nav-menu.is-scrolling {
@@ -240,10 +248,10 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -moz-linear-gradient( 135deg, rgba(171, 68, 123, 0.8) 0%, rgba(215, 5, 45, 0.8) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(171, 68, 123, 0.8) 0%, rgba(215, 5, 45, 0.8) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(171, 68, 123, 0.8) 0%, rgba(215, 5, 45, 0.8) 100%);
+    background-image: linear-gradient( 135deg, rgba(171, 68, 123, 0.8) 0%, rgba(215, 5, 45, 0.8) 100%);
 }
 
 .tagline {
